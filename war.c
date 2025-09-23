@@ -28,3 +28,15 @@ int main() {
 
         printf("\n");
     }
+
+printf("\n===== Dados dos Territórios Cadastrados =====\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Território %d:\n", i + 1);
+        printf("Nome: %s\n", territorios[i].nome);
+        printf("Cor do exército: %s\n", territorios[i].cor);
+        printf("Quantidade de tropas: %d\n", territorios[i].tropas);
+        printf("--------------------------------------\n");
+    }
+
+    return 0;
+}
